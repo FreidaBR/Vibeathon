@@ -40,7 +40,7 @@ export default function RoadmapSection({ milestones = [], loading, error }) {
       console.error('Error saving roadmap completion:', err);
     }
   };
-
+//test
   const hasContent = milestones?.length > 0;
   const showSection = hasContent || loading || error;
 
