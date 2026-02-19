@@ -62,7 +62,7 @@ function AppContent() {
         onDreamRoleAnalyzed={handleDreamRoleAnalyzed}
         dreamRoleAnalyzed={!!dreamRole}
       />
-      <SkillsSection skills={skills} />
+      <SkillsSection skills={skills} dreamRole={dreamRole} />
       <RoadmapSection
         milestones={roadmap}
         loading={roadmapLoading}
